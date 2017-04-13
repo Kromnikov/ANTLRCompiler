@@ -1,5 +1,5 @@
 {
-a,b,c,perimetr:!boolean,%real;
+a,b,c,perimetr:boolean,real;
 a:=24e1;
 b:=-.3e-1;
 c:=191o;

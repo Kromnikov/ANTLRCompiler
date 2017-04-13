@@ -1,5 +1,5 @@
 {
-a,b:%real;
-c,perimetr:!boolean;
-d:boolean;
+a,b:boolean;
+c,perimetr:real;
+d integer;
 }

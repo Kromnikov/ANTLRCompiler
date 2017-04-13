@@ -1,5 +1,5 @@
 {
-a, b, c, d:%real;
+a, b, c, d:boolean;
 
 a:=13 GT 15;
 b:=14.4 LT 14.6;

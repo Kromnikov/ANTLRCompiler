@@ -1,4 +1,4 @@
 {
-1abc,b,c,2perimetr, hex, notReal,:%real
-1abc,b,c,2perimetr, hex, notReal:%real)
+1abc,b,c,2perimetr, hex, notReal,:real
+1abc,b,c,2perimetr, hex, notReal:real)
 }

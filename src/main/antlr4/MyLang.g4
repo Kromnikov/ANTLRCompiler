@@ -24,7 +24,7 @@ composite_operator
  ;
 
 definition
-    : var1=ID (',' var2=ID)* ':' TYPE SCOL
+    : var1=ID (',' var2=ID)* ':' type SCOL
     ;
 
 assignment
@@ -112,10 +112,10 @@ ID
  : [a-zA-Z_] [a-zA-Z_0-9]*
  ;
 
-TYPE
-    : '!boolean'
-    | '%real'
-    | '$integer'
+type
+    : 'real'
+    | 'boolean'
+    | 'integer'
     ;
 
 NUMBER

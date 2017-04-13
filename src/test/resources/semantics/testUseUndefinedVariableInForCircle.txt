@@ -1,6 +1,6 @@
 {
 
-b:$integer;
+b:integer;
 b:=11;
 
 for a:=1 to 5 plus 1 step 1

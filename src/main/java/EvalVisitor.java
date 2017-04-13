@@ -19,9 +19,9 @@ public class EvalVisitor extends MyLangBaseVisitor<Value> {
     public static final String DEBUG = "DEBUG: ";
     public static final String THE_USE_OF_AN_UNINITIALIZED_VARIABLE = " use of an uninitialized variable: ";
     public static final String THE_USE_OF_AN_UNDEFINED_VARIABLE = " use of an undefined variable: ";
-    public static final String REAL_TYPE = "!boolean";
-    public static final String INT_TYPE = "$integer";
-    public static final String BOOLEAN_TYPE = "%real";
+    public static final String REAL_TYPE = "real";
+    public static final String INT_TYPE = "integer";
+    public static final String BOOLEAN_TYPE = "boolean";
 
     protected Map<String, Value> IDValueMemory = new HashMap<String, Value>();
     protected Map<String, Types> IDTypeMemory = new HashMap<String, Types>();
@@ -123,7 +123,7 @@ public class EvalVisitor extends MyLangBaseVisitor<Value> {
     public Value visitDefinition(MyLangParser.DefinitionContext ctx) {
         for (TerminalNode id : ctx.ID()) {
             String idName = id.getText();
-            String idType = ctx.TYPE().getText();
+            String idType = ctx.type().getText();
             checkIDExistence(idName);
             IDTypeMemory.put(idName, Types.getType(idType));
             IDScopeMemory.put(idName, scope);

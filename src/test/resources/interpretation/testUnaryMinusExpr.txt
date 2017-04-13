@@ -1,5 +1,5 @@
 {
-a, b:!boolean;
+a, b:real;
 a:=10;
 b:=min a;
 }

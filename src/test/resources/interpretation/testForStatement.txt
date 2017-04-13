@@ -1,5 +1,5 @@
 {
-number, factorial:!boolean;
+number, factorial:real;
 number:=4;
 factorial:=1;
 

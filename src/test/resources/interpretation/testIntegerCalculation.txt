@@ -1,7 +1,7 @@
 {
-a:$integer;
-b:$integer;
-c, d:!boolean;
+a:integer;
+b:integer;
+c, d:real;
 
 
 a:=123;

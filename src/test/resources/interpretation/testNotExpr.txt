@@ -1,6 +1,6 @@
 {
-a:%real;
-b:%real;
+a:boolean;
+b:boolean;
 a:=true;
 b:=~a;
 }
