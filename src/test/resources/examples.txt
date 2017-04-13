@@ -1,18 +1,18 @@
 {
- a,b,c,perimetr:!;
+ a,b,c,perimetr:!boolean;
  a=:24;
  b:=34.3e-1b;
  c:=191o;
  perimetr:=a+b+c;
  writeln square;
- /* рассчёт периметра треугольника */
+ /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
  }
 
 
 
 
 {
-input,result:%;
+input,result:%real;
 input:=5;
 for i:=1 to input step 1
 result:=result*i;
@@ -25,7 +25,7 @@ writeln input
 
 
 {
-pi,radius,square:!;
+pi,radius,square:!boolean;
 
 square:=pi*radius*pi*radius;
 
@@ -39,9 +39,9 @@ writeln square;
 
  /* 7 9 11 15 19 21 */  
 {
-ava ,bava,c1:!;
-count:%;
-flag,mlag:$;
+ava ,bava,c1:!boolean;
+count:%real;
+flag,mlag:$integer;
 c1:=false||1;
 c1:=11.87e-51b;
 count:=34;
@@ -69,6 +69,6 @@ end;
  here is the commentary 
 while
 for
-$ % || * - && */
+$integer %real || * - && */
 
 }

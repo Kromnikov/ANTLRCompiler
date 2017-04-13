@@ -1,5 +1,5 @@
 {
-% a, b;
+%real a, b;
 
 a:= b plus 10;
 }

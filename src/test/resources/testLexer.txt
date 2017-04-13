@@ -1,5 +1,5 @@
 {
-a,b,c,perimetr:%;
+a,b,c,perimetr:%real;
 a:=171o;
 a:=171O;
 real:=141e1;

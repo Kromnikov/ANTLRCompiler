@@ -19,9 +19,9 @@ public class EvalVisitor extends MyLangBaseVisitor<Value> {
     public static final String DEBUG = "DEBUG: ";
     public static final String THE_USE_OF_AN_UNINITIALIZED_VARIABLE = " use of an uninitialized variable: ";
     public static final String THE_USE_OF_AN_UNDEFINED_VARIABLE = " use of an undefined variable: ";
-    public static final String REAL_TYPE = "!";
-    public static final String INT_TYPE = "$";
-    public static final String BOOLEAN_TYPE = "%";
+    public static final String REAL_TYPE = "!boolean";
+    public static final String INT_TYPE = "$integer";
+    public static final String BOOLEAN_TYPE = "%real";
 
     protected Map<String, Value> IDValueMemory = new HashMap<String, Value>();
     protected Map<String, Types> IDTypeMemory = new HashMap<String, Types>();

@@ -1,6 +1,6 @@
 {
-% a ;
-$ b;
+%real a ;
+$integer b;
 
 a:=true;
 b:=11;

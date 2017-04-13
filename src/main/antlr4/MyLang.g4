@@ -113,9 +113,9 @@ ID
  ;
 
 TYPE
-    : '!'
-    | '%'
-    | '$'
+    : '!boolean'
+    | '%real'
+    | '$integer'
     ;
 
 NUMBER

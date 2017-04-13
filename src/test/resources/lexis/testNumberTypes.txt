@@ -1,5 +1,5 @@
 {
-% a,b,c,perimetr, hex, real;
+%real a,b,c,perimetr, hex, real;
 a:=171o;
 a:=171O;
 real:=141e1;

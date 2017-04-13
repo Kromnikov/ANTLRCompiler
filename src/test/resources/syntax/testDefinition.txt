@@ -1,5 +1,5 @@
 {
-% a,b;
-! c,perimetr;
+%real a,b;
+!boolean c,perimetr;
 boolean d ;
 }

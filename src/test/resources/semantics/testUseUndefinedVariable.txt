@@ -1,6 +1,6 @@
 {
 
-$ b ;
+$integer b ;
 
 a:=true;
 b:=11;
