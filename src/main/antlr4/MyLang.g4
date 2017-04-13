@@ -24,7 +24,7 @@ composite_operator
  ;
 
 definition
-    : var1=ID (',' var2=ID)* SCOL ':-----' TYPE
+    : var1=ID (',' var2=ID)* ':' TYPE SCOL
     ;
 
 assignment
