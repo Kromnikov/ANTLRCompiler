@@ -1,5 +1,5 @@
 {
-$integer a, b, c, d, e;
+a, b, c, d, e:$integer;
 
 a:=123;
 b:=99;

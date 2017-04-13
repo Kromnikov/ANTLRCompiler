@@ -1,5 +1,5 @@
 {
-%real a, b, c, d;
+a, b, c, d:%real;
 
 a:=13 NE 15;
 b:=14.4  NE 14.4;

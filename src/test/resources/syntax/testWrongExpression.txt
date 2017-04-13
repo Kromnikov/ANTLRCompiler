@@ -1,5 +1,5 @@
 {
-%real a,b, c;
+a,b, c:%real;
 
 a:=1;
 b:=5;

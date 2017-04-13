@@ -1,9 +1,9 @@
 {
-%real a,b,c,perimetr, hex, real;
+a,b,c,perimetr, hex, notReal:%real;
 a:=171o;
 a:=171O;
-real:=141e1;
-real:=min .3e-1;
+notReal:=141e1;
+notReal:=min .3e-1;
 hex:=min A13A4h;
 hex:=min123h;
 a:=101010b;

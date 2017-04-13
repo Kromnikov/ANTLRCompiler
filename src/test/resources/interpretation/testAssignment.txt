@@ -1,8 +1,8 @@
 {
-$integer a;
-!boolean b;
-%real c;
-$integer d;
+a:$integer;
+b:!boolean;
+c;%real;
+d:$integer;
 
 a:=123;
 b:=123.0;

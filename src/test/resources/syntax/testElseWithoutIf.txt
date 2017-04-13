@@ -1,6 +1,6 @@
 {
-%real a,b;
-!boolean c,perimetr;
+a,b:%real;
+c,perimetr:!boolean;
 
 a := ~true;
 b := false;
