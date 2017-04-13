@@ -1,0 +1,14 @@
+{
+a,b,c,perimetr:%;
+a:=171o;
+a:=171O;
+real:=141e1;
+real1f4:=-.3e-1;
+hex:=-A13A4h;
+hex:=-123h;
+a:=101010b;
+a:=101010B;
+oct:=perimetr;
+
+/* комментарий */
+}

@@ -1,0 +1,39 @@
+{
+a,b,c,perimetr:%;
+a := true;
+b := false;
+
+begin
+  writeln Done;
+  writeln a;
+end
+
+if (a && b)
+begin
+  writeln a;
+end
+if a || b
+  writeln b;
+else
+begin
+  writeln a + b;
+  a:=b;
+end
+
+while (b>a)
+writeln Done;
+
+while (b==a)
+begin
+  writeln Done;
+  writeln a;
+end
+
+for a:=1 to 5+1 step 1
+  writeln a;
+  writeln Done;
+
+  while (b>a)
+  writeln b;
+next
+}

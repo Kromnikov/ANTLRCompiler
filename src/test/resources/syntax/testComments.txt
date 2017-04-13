@@ -1,0 +1,10 @@
+{
+% a,b;
+! c,perimetr;
+
+a := ~true;
+b := false;
+
+/* right comment */
+ /*right tootestSyntaxComments.txt*/*/
+}

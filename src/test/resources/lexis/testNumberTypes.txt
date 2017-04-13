@@ -1,0 +1,17 @@
+{
+% a,b,c,perimetr, hex, real;
+a:=171o;
+a:=171O;
+real:=141e1;
+real:=min .3e-1;
+hex:=min A13A4h;
+hex:=min123h;
+a:=101010b;
+a:=101010B;
+perimetr:=34.3e-1b;
+perimetr:=191o;
+perimetr:=123b;
+perimetr:=123B;
+perimetr:=12A;
+perimetr:=12Ad;
+}

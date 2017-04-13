@@ -1,0 +1,74 @@
+{
+ a,b,c,perimetr:!;
+ a=:24;
+ b:=34.3e-1b;
+ c:=191o;
+ perimetr:=a+b+c;
+ writeln square;
+ /* рассчёт периметра треугольника */
+ }
+
+
+
+
+{
+input,result:%;
+input:=5;
+for i:=1 to input step 1
+result:=result*i;
+next
+writeln input
+
+/* 5 factorial */
+}
+
+
+
+{
+pi,radius,square:!;
+
+square:=pi*radius*pi*radius;
+
+writeln square;
+
+/* square of a circle */
+}
+
+
+
+
+ /* 7 9 11 15 19 21 */  
+{
+ava ,bava,c1:!;
+count:%;
+flag,mlag:$;
+c1:=false||1;
+c1:=11.87e-51b;
+count:=34;
+bava:=1.24;
+for ava:=count to 0 step -1;
+readln ava,c1;
+next
+readln ava,c1;
+if (c1<=25)
+begin
+if (ava<bava)
+begin
+writeln 1;
+end
+end
+
+
+
+/*
+10101b
+.34e-34; 
+c:=(ava+bava)/2;
+< >
+end;
+ here is the commentary 
+while
+for
+$ % || * - && */
+
+}

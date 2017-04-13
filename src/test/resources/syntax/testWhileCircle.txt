@@ -1,0 +1,10 @@
+{
+% a,b;
+! c,perimetr;
+
+a := ~true;
+b := false;
+
+while b GT a
+writeln Done plus (5 min 4) ;
+}

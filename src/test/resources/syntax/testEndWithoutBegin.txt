@@ -1,0 +1,19 @@
+{
+% a,b;
+! c,perimetr;
+
+a := ~true;
+b := false;
+
+while (b EQ a )
+begin
+  writeln Done;
+  writeln a;
+
+  begin
+    writeln a plus b;
+    a:=b;
+  end
+  end
+end
+}

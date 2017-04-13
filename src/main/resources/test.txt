@@ -1,0 +1,88 @@
+{
+
+a,beta:!;
+c,v:%;
+int,r:$;
+
+a:=4;
+int:=a;
+
+begin
+ s:%;
+
+for i:=1 to 5.0+1 step 1.5
+    writeln i;
+    for p:=1 to 3  step 1
+        writeln i+p;
+            ooo:%;
+            ooo:=true;
+    next
+next
+s:=false;
+writeln s;
+end
+
+d:%;
+/*
+for i:=1 to 5.0+1 step 1.5
+    writeln i;
+    for p:=1 to 3  step 1
+        writeln i+p;
+    next
+next
+
+
+writeln a;
+writeln beta;
+
+
+beta:=1;
+r:=111b+5+1Ah+ 1o+1;
+c:=true;
+a:=1+.5+8.0+r-1;
+
+
+int:=5+2;
+writeln int;
+writeln 5/2;
+writeln r;
+writeln r!=r;
+writeln 101b==5o;
+writeln c && false==true;
+
+
+
+
+for i:=1 to 5.0+1 step 1.5
+    writeln i;
+    for p:=1 to 3  step 1
+        writeln i+p;
+    next
+next
+
+
+for i:=1 to 5 step 1.0
+    writeln i;
+next
+
+
+if (beta<a)
+  if (c<v)
+    writeln c;
+  else
+    writeln v;
+else
+    writeln a;
+
+ while (beta<4)
+begin
+  writeln beta;
+  beta:=beta+1;
+  alpha:=4;
+  while (alpha>0)
+    begin
+       writeln alpha;
+       alpha:=alpha-1;
+    end
+end */
+}

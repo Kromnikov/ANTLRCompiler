@@ -1,0 +1,5 @@
+{
+for a to 5 plus 1 step 1
+  writeln a;
+next
+}

@@ -1,0 +1,49 @@
+{
+% a,b;
+! c,perimetr;
+
+a := ~true;
+b := false;
+
+$ h;
+
+begin
+  writeln Done;
+  writeln a;
+end
+
+if (a or b)
+begin
+  writeln a;
+end
+if a and b
+  writeln b;
+else
+begin
+  writeln a plus b;
+  a:=b;
+end
+
+while (b GT a)
+writeln Done plus  (5 min 4) ;
+
+while (b EQ a )
+begin
+  writeln Done;
+  writeln a;
+
+  begin
+    writeln a plus b;
+    a:=b;
+  end
+
+end
+
+for a:=1 to 5 plus 1 step 1
+  writeln a;
+  writeln Done;
+
+  while (b GT a)
+  writeln b;
+next
+}

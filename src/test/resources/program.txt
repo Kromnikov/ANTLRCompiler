@@ -1,0 +1,12 @@
+{
+a,b,c,perimetr:!,%;
+a:=24e1;
+b:=-.3e-1;
+c:=191o;
+for a:=3 to 1 step -1;
+for c:=3 to 1 step -1;
+writeln square>a;
+next
+perimetr:=a+b+c;
+/* perimetrog triangle */
+}

@@ -1,0 +1,5 @@
+{
+for a:=10 to 15 step min 1
+  writeln a;
+next
+}

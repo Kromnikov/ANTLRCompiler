@@ -1,0 +1,11 @@
+{
+ $ a;
+$ b;
+! c, d;
+
+
+a:=123;
+b:=(a plus 150) mult 10 plus ((127 min 65) div 1);
+c:=12.3;
+d:=(c plus 15.0) mult 10 plus ((12.7 min 6.5) div 1.0);
+}

@@ -1,0 +1,21 @@
+{
+% a,b;
+! c,perimetr;
+
+a := ~true;
+b := false;
+
+if a and b
+  writeln b;
+else
+begin
+  writeln a plus b;
+  a:=b;
+end
+else
+begin
+  writeln a plus b;
+  a:=b;
+end
+
+}

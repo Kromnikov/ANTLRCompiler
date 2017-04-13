@@ -1,0 +1,19 @@
+{
+% a,b;
+! c,perimetr;
+
+a := ~true;
+b := false;
+
+for a:=1 to 5 plus 1 step 1
+  writeln a;
+  writeln Done;
+
+  while (b GT a)
+  writeln b;
+
+  for a:=1 to 5 plus 1 step 1
+   writeln a;
+next
+
+}

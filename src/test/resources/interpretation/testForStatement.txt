@@ -1,0 +1,11 @@
+{
+! number, factorial;
+number:=4;
+factorial:=1;
+
+for i:=1 to number step 1
+    begin
+        factorial:= factorial mult i;
+    end
+next
+}

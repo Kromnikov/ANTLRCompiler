@@ -1,0 +1,4 @@
+{
+% 1abc,b,c,2perimetr, hex, real,
+% 1abc,b,c,2perimetr, hex, real)
+}

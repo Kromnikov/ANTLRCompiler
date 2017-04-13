@@ -1,0 +1,17 @@
+{
+$ a, b, c, d, e;
+
+a:=123;
+b:=99;
+c:=32;
+d:= 56;
+
+if ((a plus c) EQ (b plus d))
+    begin
+        e:=155;
+    end
+else
+    begin
+        e:=0;
+    end
+}
